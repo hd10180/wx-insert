@@ -1,0 +1,22 @@
+
+body {
+  min-width: 300px;
+  min-height: 230px;
+}
+
+.wrap {
+  padding: 20px;
+}
+
+h2 {
+  font-weight: normal;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.alert {
+  margin-top: 15px;
+  font-size: 14px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}

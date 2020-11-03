@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="referrer" content="origin-when-crossorigin">
+  <title>popup</title>
+  <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <div class="wrap">
+    <form>
+      <div class="form-group">
+        <label for="wxid">图文ID</label>
+        <input type="text" class="form-control" name="id" id="wxid" placeholder="输入图文ID">
+      </div>
+      <button type="button" class="btn btn-primary" id="btn-get">获取图文</button>
+      <button type="button" class="btn btn-primary" id="btn-add">插入图文</button>
+    </form>
+    <div class="alert alert-primary d-none">
+      图文获取成功
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="bootstrap/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </div>
+</body>
+</html>
